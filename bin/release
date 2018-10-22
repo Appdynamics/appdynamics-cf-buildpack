@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# bin/release <build-dir>
+if [ -f "/tmp/appdynamics-buildpack-release-step.yml" ]; then
+  cat "/tmp/appdynamics-buildpack-release-step.yml"
+else
+  echo -e "---\ndefault_process_types:\n  web: '>&2 echo Please specify a default start command for this buildpack && exit 1'"
+fi

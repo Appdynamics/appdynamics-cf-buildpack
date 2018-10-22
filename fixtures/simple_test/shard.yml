@@ -1,0 +1,6 @@
+crystal: 0.24.2
+dependencies:
+  blank:
+    github: kostya/blank
+name: simple_test
+version: 0.1.0
