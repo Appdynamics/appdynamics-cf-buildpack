@@ -1,2 +1,2 @@
-# appdynamics-buildpack
+# appdynamics-cf-buildpack
 
